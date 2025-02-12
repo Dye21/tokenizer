@@ -100,8 +100,7 @@ char **tokenizeS(char *str, char delim)
     return tokens;
 }
 
-char *Strcpy(char *dest, char *src)
-{
+char *Strcpy(char *dest, char *src){
     char *start=dest;
     while (*src != '\0'){
         *dest = *src;
